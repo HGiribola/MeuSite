@@ -1,0 +1,29 @@
+/*Global CSS*/
+*{ 
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to top, rgba(88, 21, 214, 0.7),rgb(64, 64, 64, 0.7) 30%);
+}
+
+
+.container_parent {
+    padding: 2rem 2rem;
+    text-align: left;
+}
+.container_child{
+    display: inline-block;
+    padding: 1rem 1rem;
+     vertical-align: middle;
+}
+.container_child2 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+
+.logo{
+    width: x;
+    height: 101px;
+}
