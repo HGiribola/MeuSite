@@ -1,12 +1,10 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family= Barlow :wght@900 & display=swap');
+
 /*Global CSS*/
 *{ 
     height: 100%;
 }
-
-body{
-    background-image: linear-gradient(to top, rgba(88, 21, 214, 0.7),rgb(64, 64, 64, 0.7) 30%);
-}
-
 
 .container_parent {
     padding: 2rem 2rem;
