@@ -1,24 +1,19 @@
 /*Fonte*/
 @import url('https://fonts.googleapis.com/css2?family= Barlow :wght@900 & display=swap');
 
+:root {
+    --bg-color: black;
+    --second-bg-color: rgb(150, 180, 200); /*azul bebe*/
+    --text-color: black;
+    --text-color-on-bg: white;
+    --main-color: rgb(50, 50, 255); /*azul*/
+    --transparent-color: rgba(0, 0, 0, 0.5);
+}
+
 /*Global CSS*/
 *{ 
     height: 100%;
-}
-
-.container_parent {
-    padding: 2rem 2rem;
-    text-align: left;
-}
-.container_child{
-    display: inline-block;
-    padding: 1rem 1rem;
-     vertical-align: middle;
-}
-.container_child2 {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
+    background-color: var(--bg-color);
 }
 
 .logo{
